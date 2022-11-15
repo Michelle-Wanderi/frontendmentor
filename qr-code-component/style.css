@@ -1,0 +1,51 @@
+:root
+{
+    --desktop-bg : hsl(212, 45%, 89%);
+    --card-bg:hsl(0, 0%, 100%); 
+    --txt-main-heading: hsl(218, 44%, 22%);
+    --txt-para : hsl(212, 45%, 89%);
+    
+}
+@font-face {
+    font-family: 'Outfit', sans-serif;;
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-style : normal;
+
+}
+
+body{
+    background-color : var(--desktop-bg);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+
+
+
+
+}
+
+
+
+.card{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-body{
+    align-items: center;
+    justify-items: center;
+}
+h3{
+    font-family: 'Outfit', sans-serif;
+
+}
+p{
+    font-size: 15px;
+    font-family:'Outfit', sans-serif;
+}
